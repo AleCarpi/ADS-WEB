@@ -62,6 +62,7 @@ main {
 .logo {
   max-width: 100%;
   height: auto;
+  animation: bounce 5s ease-in-out infinite; /* Animación de 5 segundos con rebote */
 }
 
 .titles-container {
@@ -85,10 +86,6 @@ h2 {
   text-transform: uppercase; /* Todo en mayúsculas */
   font-family: 'Roboto', sans-serif; /* Cambiar la fuente según necesidad */
   white-space: nowrap; /* Evita el quiebre de línea */
-}
-
-.logo {
-  animation: bounce 5s ease-in-out infinite; /* Animación de 5 segundo con rebote */
 }
 
 @keyframes bounce {
@@ -127,6 +124,31 @@ h2 {
   color: #fff; /* Color de las letras blanco */
   border-radius: 10px; /* Esquinas redondeadas */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19); /* Efecto de sombreado */
+  line-height: 1.2; /* Espaciado de líneas */
+  font-size: 16px; /* Tamaño de fuente */
+}
+.modal-contenido p, .modal-contenido ul, .modal-contenido li {
+  margin-bottom: 1em;
+}
+.modal-contenido ul {
+  padding-left: 20px;
+}
+.quienes-somos-texto p {
+  margin-bottom: 10px; /* Espacio entre párrafos */
+}
+
+.quienes-somos-texto h3 {
+  font-size: 18px; /* Tamaño de fuente para los servicios adicionales */
+  margin-top: 20px; /* Espacio superior */
+}
+
+.quienes-somos-texto ul {
+  padding-left: 20px; /* Sangría para la lista de servicios */
+}
+
+.quienes-somos-texto ul li {
+  list-style: none; /* Elimina los puntos de la lista */
+  margin-bottom: 5px; /* Espacio entre elementos de la lista */
 }
 
 .close-modal {
