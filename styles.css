@@ -188,7 +188,7 @@ h2 {
   }
 
   .social-logo {
-      max-width: 80px; /* Ajusta el tamaño máximo para pantallas pequeñas */
-      max-height: 80px; /* Ajusta la altura máxima para mantener la proporción */
+      max-width: 150px; /* Ajusta el tamaño máximo para pantallas pequeñas */
+      max-height: 150px; /* Ajusta la altura máxima para mantener la proporción */
   }
 }
