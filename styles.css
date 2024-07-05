@@ -155,3 +155,40 @@ h2 {
   height: auto;
   max-height: 250px; /* Ajusta la altura máxima para mantener la proporción */
 }
+/* Media Queries para dispositivos pequeños */
+@media (max-width: 768px) {
+  header {
+      padding: 10px;
+  }
+
+  nav ul {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  nav ul li {
+      margin: 10px 0;
+  }
+
+  main {
+      padding-top: 80px; /* Aumenta el espacio para el header fijo en pantallas pequeñas */
+  }
+
+  .logo-container {
+      margin-bottom: 30px;
+  }
+
+  .modal-contenido {
+      width: 90%; /* Aumenta el ancho del modal en pantallas pequeñas */
+      margin: 20% auto; /* Ajusta el margen superior en pantallas pequeñas */
+  }
+
+  .social-icons {
+      flex-direction: column;
+  }
+
+  .social-logo {
+      max-width: 80px; /* Ajusta el tamaño máximo para pantallas pequeñas */
+      max-height: 80px; /* Ajusta la altura máxima para mantener la proporción */
+  }
+}
