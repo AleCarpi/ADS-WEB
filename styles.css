@@ -177,6 +177,21 @@ h2 {
   height: auto;
   max-height: 250px; /* Ajusta la altura máxima para mantener la proporción */
 }
+
+.direccion-contacto {
+  text-align: center; /* Centrar el texto de la dirección */
+  margin-top: 10px; /* Espacio superior */
+}
+
+.direccion-link {
+  color: #ccc; /* Color gris */
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.direccion-link:hover {
+  color: yellow; /* Cambiar color al pasar el cursor */
+}
 /* Media Queries para dispositivos pequeños */
 @media (max-width: 768px) {
   header {
